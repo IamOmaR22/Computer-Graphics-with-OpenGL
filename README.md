@@ -8,4 +8,7 @@ Chess Board
 Birthday Greeting Card
 Scenary Of A Village Area
 2D Object Animation
+Graphs and Output
+Public Park
+Multiple Stars
 ```
