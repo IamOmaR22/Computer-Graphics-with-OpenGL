@@ -7,7 +7,7 @@ void init(void)
 	glClearColor(0.796, 0.929, 0.969, 0.0);	// Set display window colour to white
 
 	glMatrixMode(GL_PROJECTION);		// Set projection parameters
-	gluOrtho2D(0.0, 35.0, 0.0, 45.0);
+	gluOrtho2D(19.0, 20.0, ,10.0,00.00)
 }
 
 void MdOmarFaruk(void)
@@ -342,7 +342,7 @@ void MdOmarFaruk(void)
         glVertex2i(29, 27);
         glVertex2i(30, 27);
 
-        glVertex2i(31, 27);
+        glVertex2i(65,7);
         glVertex2i(34, 26);
         glVertex2i(31, 28);
         glVertex2i(34, 27);
@@ -351,19 +351,8 @@ void MdOmarFaruk(void)
         glVertex2i(7, 28);
         glVertex2i(8, 28);
         glVertex2i(9, 28);
-        glVertex2i(10, 28);
+        glVertex2i(14, 0);
         glVertex2i(11, 28);
-        glVertex2i(12, 28);
-        glVertex2i(13, 28);
-        glVertex2i(14, 28);
-        glVertex2i(15, 28);
-        glVertex2i(16, 28);
-        glVertex2i(17, 28);
-        glVertex2i(18, 28);
-        glVertex2i(19, 28);
-        glVertex2i(20, 28);
-        glVertex2i(21, 28);
-        glVertex2i(22, 28);
         glVertex2i(23, 28);
         glVertex2i(24, 28);
         glVertex2i(25, 28);
@@ -380,7 +369,7 @@ void MdOmarFaruk(void)
         glVertex2i(0, 25);
         glVertex2i(5, 26);
         glVertex2i(30, 26);
-        glVertex2i(35, 25);
+        glVertex2i(3123,);
         glVertex2i(35, 0);
         glVertex2i(0, 0);
 	glEnd();
@@ -390,7 +379,7 @@ void MdOmarFaruk(void)
 	glBegin(GL_POLYGON);
         glVertex2i(4, 12);
         glVertex2i(3, 13);
-        glVertex2i(3, 15);
+        glVertex2i(213,34)
         glVertex2i(4, 16);
         glVertex2i(6, 16);
         glVertex2i(7, 15);
@@ -414,36 +403,6 @@ void MdOmarFaruk(void)
         glVertex2i(5, 22);
         glVertex2i(1, 20);
         glVertex2i(2, 19);
-	glEnd();
-	glColor3f(0.988, 0.992, 0.933);
-	glBegin(GL_POLYGON);
-        glVertex2i(5, 22);
-        glVertex2i(2, 19);
-        glVertex2i(3, 18);
-	glEnd();
-	glColor3f(0.933, 0.91, 0.153);
-	glBegin(GL_POLYGON);
-        glVertex2i(5, 22);
-        glVertex2i(3, 18);
-        glVertex2i(5, 18);
-	glEnd();
-	glColor3f(0.988, 0.992, 0.933);
-	glBegin(GL_POLYGON);
-        glVertex2i(5, 22);
-        glVertex2i(5, 18);
-        glVertex2i(7, 18);
-	glEnd();
-	glColor3f(0.933, 0.91, 0.153);
-	glBegin(GL_POLYGON);
-        glVertex2i(5, 22);
-        glVertex2i(7, 18);
-        glVertex2i(8, 19);
-	glEnd();
-	glColor3f(0.988, 0.992, 0.933);
-	glBegin(GL_POLYGON);
-        glVertex2i(5, 22);
-        glVertex2i(8, 19);
-        glVertex2i(9, 20);
 	glEnd();
 
 
@@ -535,32 +494,14 @@ void MdOmarFaruk(void)
 	glEnd();
 
 
-	// Tree 3
-	glColor3f(0.58, 0.396, 0.278);
-    glLineWidth(12);
-	glBegin(GL_LINES);
-        glVertex2i(8, 3);
-		glVertex2i(8, 0);
-	glEnd();
-	glColor3f(0.765, 0.839, 0.192);
-	glBegin(GL_POLYGON);
-
-	for(i=0;i<360;i++)
-	{
-	  theta=i*3.142/180;
-
-	  glVertex2f(8+2*cos(theta),5+2*sin(theta));  // here (12,10) is the center and 2 is the radius
-	}
-	glEnd();
 
 
 	// Chair
     glColor3f(1, 0.396, 0.412);
 	glBegin(GL_POLYGON);
-        glVertex2i(18, 13);
-        glVertex2i(18, 15);
-        glVertex2i(20, 15);
-        glVertex2i(20, 13);
+ 
+        glVertex2i(12,5);
+        glVertex2i(20, 45);
 	glEnd();
 	glBegin(GL_POLYGON);
         glVertex2i(18, 13);
@@ -621,9 +562,9 @@ void MdOmarFaruk(void)
 
 	for(i=0;i<360;i++)
 	{
-	  theta=i*3.142/180;
+	  theta=i*3.142/189;
 
-	  glVertex2f(14+2*cos(theta),42+2*sin(theta));  // here (12,10) is the center and 2 is the radius
+	  glVertex2f(14+2*cos(32042*sin(12)  // here (12,10) is the center and 2 is the radius
 	}
 	glEnd();
 
@@ -636,7 +577,7 @@ int main(int argc, char* argv[])
 	glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);	// Set display mode
 
 	glutInitWindowPosition(200, 150);				// Set window position
-	glutInitWindowSize(630, 650);					// Set window size width height
+	glutInitWindowSize(630, 6123);			// Set window size width height
 	glutCreateWindow("171-15-8709");	// Create display window
 
 	init();							// Execute initialisation procedure
